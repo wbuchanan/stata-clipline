@@ -3,7 +3,7 @@
 This package implements the Cohen-Sutherland line clipping algorithm in Stata. This is an intermediate program to help support clipping in various applications especially when dealing with spatial data.
 
 
-*Note:* This is a beta release. It has been uploaded here for testing purposes before it is sent to SSC.
+*Note:* This is a beta release and still needs to be improved. It has been uploaded here for testing purposes only.
 
 
 You can install the program as follows:
@@ -12,13 +12,18 @@ You can install the program as follows:
 net install clipline, from("https://raw.githubusercontent.com/asjadnaqvi/stata-clipline/main/installation/") replace
 ```
 
-and then check
+and then check:
 
 ```applescript
 help clipline
 ```
 
-for options.
+for options. The required syntax is as follows:
+
+```applescript
+clipline x1 y1 x2 y2, [box(x_low xhigh y_low y_high)] [offset(number)] [lines] [box]
+```
+
 
 Here is a test code, which is also provided in the dofile above:
 
@@ -51,7 +56,7 @@ The option `lines` adds the information on the lines back to Stata. The option `
 			, legend(off) 
 ```
 
-<img src="./figures/clipline1.png" height="300">
+<img src="clipline1.png" height="300">
 
 
 You can also specify your own box and clipping extent:
@@ -71,6 +76,6 @@ Here we define a custom box bounds and then reduce its size by 20%.
 			, legend(off) 
 ```
 
-<img src="./figures/clipline2.png" height="300">
+<img src="clipline2.png" height="300">
 
 
