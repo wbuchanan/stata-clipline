@@ -3,7 +3,7 @@
 This package implements the Cohen-Sutherland line clipping algorithm in Stata. This is an intermediate program to help support clipping in various applications especially when dealing with spatial data.
 
 
-*Note:* This is a beta release and still needs to be improved. It has been uploaded here for testing purposes only.
+*Note:* This is a beta release and still needs to be improved. It has been uploaded here for testing purposes only. Feedback is always welcome!
 
 
 You can install the program as follows:
