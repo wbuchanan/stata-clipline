@@ -56,7 +56,7 @@ The option `lines` adds the information on the lines back to Stata. The option `
 			, legend(off) 
 ```
 
-<img src="clipline1.png" height="300">
+<img src="clipline1.png" height="500">
 
 
 You can also specify your own box and clipping extent:
@@ -76,6 +76,6 @@ Here we define a custom box bounds and then reduce its size by 20%.
 			, legend(off) 
 ```
 
-<img src="clipline2.png" height="300">
+<img src="clipline2.png" height="500">
 
 
