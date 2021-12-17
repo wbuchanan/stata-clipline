@@ -1,0 +1,11 @@
+v 1.1
+d CLIPLINE: Line clipping based on the Cohen-Sutherland algorithm
+d
+d
+d Asjad Naqvi, 
+d WU Vienna/IIASA, Austria
+d
+d asjadnaqvi@gmail.com
+d https://medium.com/the-stata-guide
+d https://github.com/asjadnaqvi/Stata-schemes
+
